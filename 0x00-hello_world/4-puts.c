@@ -2,7 +2,7 @@
 
 /**
  *main - prints "Programming is like building a multilingual puzzle",
- *         followed by a newline
+ *followed by a newline
  *
  *This function uses the puts function to print a message to the standard
  *output stream.
