@@ -7,21 +7,14 @@
 
 int main(void)
 {
-	int n = '0';
-	int a_to_f = 'a';
+	int d;
+	char low;
 
-	while (n <= '9') /print 0-9/
-	{
-		putchar(n);
-		n++;
-	}
+	for (d = '0'; d <= '9'; d++)
+	putchar(d);
 
-	while (a_to_f <= 'f') /print a-f to finish hexbase/
-	{
-		putchar(a_to_f);
-		a_to_f++;
-	}
-
+	for (low = 'a'; low <= 'f'; low++)
+	putchar(low);
 	putchar('\n');
 
 	return (0);
