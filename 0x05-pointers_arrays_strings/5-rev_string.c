@@ -12,7 +12,9 @@ void rev_string(char *s)
 {
 	int len = 0, index = 0;
 	char tmp;
-
+	
+	whilwe (s[index++])
+		len++;
 	for (index = len - 1; index >= len / 2; index--)
 	{
 		tmp = s[index];
