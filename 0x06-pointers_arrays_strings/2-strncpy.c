@@ -4,8 +4,7 @@
  * _strncpy -copies at most an inputted number
  * of bytes from string src into dest
  * @dest: the buffer storing the string copy
- * @src: the maximum number of bytes
- * to copied from src
+ * @src: thesource string
  * @n: the maximum number of bytes to copied from src
  * Return: a pointer to the resulting string dest
  */
