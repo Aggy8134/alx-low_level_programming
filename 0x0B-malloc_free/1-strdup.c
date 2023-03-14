@@ -7,6 +7,7 @@
  *
  * Return: the string duplicated
  */
+
 char *_strdup(char *str)
 {
 	int a = 0, i = 1;
@@ -19,6 +20,7 @@ char *_strdup(char *str)
 		i++;
 	}
 	s = malloc((sizeof(char) * i) + i);
+	
 	if (s == NULL)
 		return (NULL);
 	while (a < i)
@@ -26,6 +28,7 @@ char *_strdup(char *str)
 		s[a] = str[a];
 		a++;
 	}
+
 	s[a] = '\0';
 	return (s);
 }
